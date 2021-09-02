@@ -1,0 +1,29 @@
+{
+  "name": "zn-ui",
+  "version": "0.0.0",
+  "files": ["dist"],
+  "main": "./dist/zn-ui.umd.js",
+  "module": "./dist/zn-ui.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/zn-ui.es.js",
+      "require": "./dist/zn-ui.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "sass": "^1.38.2",
+    "vue": "^3.0.5",
+    "vue-highlightjs": "^1.3.3",
+    "vue-router": "^4.0.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.4.4"
+  }
+}
