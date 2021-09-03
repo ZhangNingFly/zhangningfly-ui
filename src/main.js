@@ -4,6 +4,7 @@ import App from './App.vue'
 import Plugins from './lib/components'
 import router from './router'
 import '@/assets/css/demo-wrapper.scss'
+import '@/assets/css/iconfont.css'
 import 'highlight.js/styles/base16/gruvbox-dark-pale.css'
 
 import vueHighlightJS from 'vue-highlightjs'

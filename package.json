@@ -1,7 +1,9 @@
 {
   "name": "zn-ui",
   "version": "0.0.0",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/zn-ui.umd.js",
   "module": "./dist/zn-ui.es.js",
   "exports": {
@@ -24,6 +26,6 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.6.0",
     "@vue/compiler-sfc": "^3.0.5",
-    "vite": "^2.4.4"
+    "vite": "^2.5.3"
   }
 }
